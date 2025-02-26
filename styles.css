@@ -41,3 +41,39 @@ h1 {
     background-color: rgb(198, 216, 197);
     color:rgb(22, 34, 34);
 }
+
+.enterAmount {
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 25px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #1d0a19;
+    border-radius: 5px;
+}
+
+.btn {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 10px;
+    color: white;
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+#depositBtn {
+    background-color: green;
+}
+
+#withdrawBtn {
+    background-color: red;
+}
