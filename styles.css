@@ -77,3 +77,13 @@ button {
 #withdrawBtn {
     background-color: red;
 }
+
+@media (max-width: 480px) {
+    .balanceCard {
+        flex-direction: column;
+    }
+
+    .balance {
+        margin: 5px 0;
+    }
+}
