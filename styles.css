@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(56, 47, 82);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card {
+    margin: 20px;
+    padding: 20px;
+    background-color: cornsilk;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #3b1032;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.balanceCard {
+    margin-bottom: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.balance {
+    margin: 0 5px;
+    padding: 10px;
+    flex: 1;
+    border-radius: 5px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: rgb(198, 216, 197);
+    color:rgb(22, 34, 34);
+}
